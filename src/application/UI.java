@@ -49,7 +49,6 @@ public class UI {
 			
 	public static void printBoard(ChessPiece[][] pieces) {
 		
-		System.out.println("  a b c d e f g h");
 		for (int r = 0; r < pieces.length; r++) {
 			System.out.print((8 - r) + " " );
 			for (int c = 0; c < pieces.length; c++) {

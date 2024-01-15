@@ -38,4 +38,6 @@ public class ChessPosition {
 			+ column 
 			+ row;
 	}
+	
+	
 }
